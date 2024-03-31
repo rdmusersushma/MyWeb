@@ -1,0 +1,16 @@
+<!DoCTYPE html>
+<html>
+        <head>
+                {% if title %}
+
+                <title> Djngo Blog - {{title}}</title>
+                {% else %}
+                <title> Django Blog </title>
+                {% endif %}
+        </head>
+        <body>
+                <h1> Hii Sush......! THIS IS BLOG PAGE</h1>
+        	{% block content %}{% endblock %}
+	</body>
+</html>
+
